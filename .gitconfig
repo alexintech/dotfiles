@@ -1,0 +1,22 @@
+[core]
+	excludesfile = /Users/alexandr/.gitignore_global
+	autocrlf = input
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Alexandr Cherepanov
+	email = xandr.cherepanov@gmail.com
+[color]
+	ui = true
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[commit]
+	template = /Users/alexandr/.stCommitMsg
+[includeIf "gitdir:~/Work/"]
+  path = .gitconfig_work
