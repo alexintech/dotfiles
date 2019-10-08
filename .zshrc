@@ -28,7 +28,7 @@ POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='015'
 POWERLEVEL9K_VI_INSERT_MODE_STRING=''
 
 POWERLEVEL9K_STATUS_VERBOSE=false
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status os_icon root_indicator context dir_writable dir)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status ssh os_icon root_indicator context dir_writable dir)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs vi_mode)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
@@ -95,7 +95,7 @@ export EDITOR="vim"
 # export TERM="screen-256color"
 export CLICOLOR=1
 export LSCOLORS=Fxfxcxdxbxegedabagacad
-export LS_COLORS=Gxfxcxdxbxegedabagacad
+export LS_COLORS="di=1;35:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43"
 # export JAVA_HOME="`/usr/libexec/java_home -v '9'`"
 # export JAVA_HOME="`/usr/libexec/java_home -v '1.8'`"
 export LC_ALL="en_US.UTF-8"
@@ -134,6 +134,3 @@ alias editHosts="sudo vim /etc/hosts"
 
 # heroku autocomplete setup
 HEROKU_AC_ZSH_SETUP_PATH=/Users/alexandr/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
-
-# ghcup setup
-source $HOME/.ghcup/env
