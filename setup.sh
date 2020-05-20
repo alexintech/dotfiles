@@ -58,6 +58,8 @@ mv -iv ~/.tmux.conf ~/.tmux.conf.old
 mv -iv ~/.gitconfig ~/.gitconfig.old
 mv -iv ~/.gitconfig_work ~/.gitconfig_work.old
 mv -iv ~/.gitignore_global ~/.gitignore_global.old
+mv -iv ~/.fzf.bash ~/.fzf.bash.old
+mv -iv ~/.fzf.zsh ~/.fzf.zsh.old
 
 echo -e "\u001b[36;1mAdding symlinks...\u001b[0m"
 ln -sfnv $CWD/.zshrc ~/.zshrc
@@ -66,5 +68,7 @@ ln -sfnv $CWD/.tmux.conf ~/.tmux.conf
 ln -sfnv $CWD/.gitconfig ~/.gitconfig
 ln -sfnv $CWD/.gitconfig_work ~/.gitconfig_work
 ln -sfnv $CWD/.gitignore_global ~/.gitignore_global
+ln -sfnv $CWD/.fzf.bash ~/.fzf.bash
+ln -sfnv $CWD/.fzf.zsh ~/.fzf.zsh
 
 echo -e "\u001b[32;1mDone.\u001b[0m"
