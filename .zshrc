@@ -6,8 +6,6 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# ZSH_THEME="alexandr"
-# ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 POWERLEVEL9K_MODE='nerdfont-complete'
 POWERLEVEL9K_COLOR_SCHEME='light'
@@ -37,7 +35,7 @@ POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%F{249}%}\u279c%{%F{default}%} "
 POWERLEVEL9K_SHOW_CHANGESET=false
 POWERLEVEL9K_CHANGESET_HASH_LENGTH=6
 
-PROJECT_PATHS=(~/Projects ~/Sites ~/Sandbox)
+PROJECT_PATHS=(~/Alfa ~/Sandbox)
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -114,8 +112,6 @@ export PATH=$PATH:$GOROOT/bin
 
 # Aliases {{{
 alias vi="vim"
-# alias r="source ~/.zshrc"
-alias sites="cd ~/Sites"
 alias server="open http://localhost:8090 && python -m SimpleHTTPServer 8090"
 alias zshconfig="vim ~/.zshrc"
 alias editHosts="sudo vim /etc/hosts"
