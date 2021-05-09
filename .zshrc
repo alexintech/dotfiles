@@ -7,7 +7,8 @@ ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="alexandr"
-ZSH_THEME="powerlevel9k/powerlevel9k"
+# ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 POWERLEVEL9K_MODE='nerdfont-complete'
 POWERLEVEL9K_COLOR_SCHEME='light'
 # POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=$'\uE0C0'
@@ -96,13 +97,19 @@ export EDITOR="vim"
 export CLICOLOR=1
 export LSCOLORS=Fxfxcxdxbxegedabagacad
 export LS_COLORS="di=1;35:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43"
-# export JAVA_HOME="`/usr/libexec/java_home -v '9'`"
 # export JAVA_HOME="`/usr/libexec/java_home -v '1.8'`"
 export LC_ALL="en_US.UTF-8"
 ## export PATH="$HOME/Applications:/usr/local/bin:/usr/local/sbin:$PATH"
 export PATH="$HOME/Applications:/usr/local/sbin:$PATH"
 export MANPATH="/usr/local/share/man:$MANPATH"
+
+# go configuration
+export GOPATH=$HOME/Sandbox/go-workspace # don't forget to change your path correctly!
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
 ## export DOCKER_HOST="unix:///var/run/docker.sock"
+
 # }}}
 
 # Aliases {{{
@@ -112,6 +119,8 @@ alias sites="cd ~/Sites"
 alias server="open http://localhost:8090 && python -m SimpleHTTPServer 8090"
 alias zshconfig="vim ~/.zshrc"
 alias editHosts="sudo vim /etc/hosts"
+alias vhelm="helm -n vault"
+alias vkubectl="kubectl -n vault"
 # }}}
 
 # # Preferred editor for local and remote sessions

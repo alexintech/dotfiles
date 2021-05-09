@@ -20,3 +20,5 @@
 	template = /Users/alexandr/.stCommitMsg
 [includeIf "gitdir:~/Work/"]
   path = .gitconfig_work
+[includeIf "gitdir:~/Alfa/"]
+  path = .gitconfig_alfa
