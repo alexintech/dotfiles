@@ -24,7 +24,7 @@ if [[ "$arg" == "-i" || "$arg" == "--install" ]]; then
         ;;
 
     "2")echo -e "\u001b[7mInstalling Powerlevel10K...\u001b[0m"
-        git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+        git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
         ;;
 
     "3")echo -e "\u001b[7mInstalling Vundle...\u001b[0m"
