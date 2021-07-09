@@ -17,13 +17,13 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'mileszs/ack.vim'
 Plugin 'mattn/webapi-vim'
-Plugin 'mattn/emmet-vim'
+" Plugin 'mattn/emmet-vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'SirVer/ultisnips'
-Plugin 'neo4j-contrib/cypher-vim-syntax'
-Plugin 'udalov/kotlin-vim'
+" Plugin 'neo4j-contrib/cypher-vim-syntax'
+" Plugin 'udalov/kotlin-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -202,7 +202,7 @@ let g:airline_theme = 'tomorrow'
 let g:vim_markdown_frontmatter=1
 
 " Searching the file system
-" map <leader>' :NERDTreeToggle<cr>
+map <leader>' :NERDTreeToggle<cr>
 map <D-1> :NERDTreeToggle<cr>
 
 " Trigger configuration. Do not use <tab>
