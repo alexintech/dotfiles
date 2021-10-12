@@ -20,3 +20,5 @@
 	template = /Users/alexandr/.stCommitMsg
 [includeIf "gitdir:~/Alfa/"]
   path = .gitconfig_alfa
+[init]
+	defaultBranch = main
