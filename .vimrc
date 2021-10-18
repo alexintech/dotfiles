@@ -144,6 +144,8 @@ let g:netrw_liststyle=3
 " cutoff appears on longer screens
 autocmd BufWinEnter * highlight ColorColumn ctermbg=darkred
 set colorcolumn=80
+
+let mapleader = "\<Space>"
 " }}}
 
 " Plugins {{{
