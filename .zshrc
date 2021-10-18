@@ -79,7 +79,6 @@ plugins=(
   git
   osx
   sudo
-  zsh_reload
   brew
   mvn
   gradle
