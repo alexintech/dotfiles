@@ -33,7 +33,7 @@ if [[ "$arg" == "-i" || "$arg" == "--install" ]]; then
 
     "4")echo -e "\u001b[7mInstalling Custom zsh plugins ...\u001b[0m"
         cd ~/.oh-my-zsh/custom/plugins
-        # git clone https://github.com/zsh-users/zsh-autosuggestions
+        git clone https://github.com/zsh-users/zsh-autosuggestions
         # git clone https://github.com/zdharma/fast-syntax-highlighting.git
         # git clone https://github.com/djui/alias-tips.git
         cd $CWD
