@@ -27,8 +27,9 @@ POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='015'
 POWERLEVEL9K_VI_INSERT_MODE_STRING=''
 
 POWERLEVEL9K_STATUS_VERBOSE=false
+POWERLEVEL9K_KUBECONTEXT_SHOW_ON_COMMAND='kubectl|helm|kubens|kubectx|oc|istioctl|kogito|k9s|helmfile|flux|fluxctl|stern'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status ssh os_icon root_indicator context dir_writable dir)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs vi_mode)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(kubecontext vcs vi_mode)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%F{249}%}\u279c%{%F{default}%} "
@@ -127,8 +128,8 @@ alias vi="vim"
 alias server="open http://localhost:8090 && python -m SimpleHTTPServer 8090"
 alias zshconfig="vim ~/.zshrc"
 alias editHosts="sudo vim /etc/hosts"
-alias vhelm="helm -n vault"
-alias vkubectl="kubectl -n vault"
+alias ct="kubectx"
+alias ns="kubens"
 # }}}
 
 # # Preferred editor for local and remote sessions
