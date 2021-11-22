@@ -53,6 +53,7 @@ fi
 
 echo -e "\u001b[33;1mBacking up old files...\u001b[0m"
 mv -iv ~/.zshrc ~/.zshrc.old
+mv -iv ~/.p10k.zsh ~/.p10k.zsh.old
 mv -iv ~/.vimrc ~/.vimrc.old
 mv -iv ~/.tmux.conf ~/.tmux.conf.old
 mv -iv ~/.gitconfig ~/.gitconfig.old
@@ -62,6 +63,7 @@ mv -iv ~/.fzf.zsh ~/.fzf.zsh.old
 
 echo -e "\u001b[36;1mAdding symlinks...\u001b[0m"
 ln -sfnv $CWD/.zshrc ~/.zshrc
+ln -sfnv $CWD/.p10k.zsh ~/.p10k.zsh
 ln -sfnv $CWD/.vimrc ~/.vimrc
 ln -sfnv $CWD/.tmux.conf ~/.tmux.conf
 ln -sfnv $CWD/.gitconfig ~/.gitconfig
