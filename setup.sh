@@ -13,6 +13,7 @@ if [[ "$arg" == "-i" || "$arg" == "--install" ]]; then
     echo -e "  \u001b[34;1m2) for Powerlevel10K\u001b[0m"
     echo -e "  \u001b[34;1m3) for Vundle\u001b[0m"
     echo -e "  \u001b[34;1m4) for Custom zsh plugins\u001b[0m"
+    echo -e "  \u001b[34;1mbrew) for Brew update\u001b[0m"
     echo -e "  \u001b[34;1mmac-arm64) for linking dotfiles for macOs ARM\u001b[0m"
     echo -e "  \u001b[34;1mmac-intel) for linking dotfiles for macOs Intel\u001b[0m"
     echo -e "  \u001b[31;1m0) to Exit\u001b[0m"
@@ -39,6 +40,11 @@ if [[ "$arg" == "-i" || "$arg" == "--install" ]]; then
         # git clone https://github.com/zdharma/fast-syntax-highlighting.git
         # git clone https://github.com/djui/alias-tips.git
         cd $CWD
+        ;;
+
+    "brew")echo -e "\u001b[7mBrew update...\u001b[0m"
+        ln -sfnv $CWD/Brewfile ~/Brewfile
+        brew bundle install
         ;;
 
     "mac-arm64")echo -e "\u001b[7mLinking dotfiles for macOs ARM...\u001b[0m"
