@@ -85,5 +85,6 @@ ln -sfnv $CWD/.tmux.conf ~/.tmux.conf
 ln -sfnv $CWD/.gitconfig ~/.gitconfig
 ln -sfnv $CWD/.gitignore_global ~/.gitignore_global
 ln -sfnv $CWD/.gvimrc ~/.gvimrc
+ln -sfnv $CWD/.ideavimrc ~/.ideavimrc
 
 echo -e "\u001b[32;1mDone.\u001b[0m"
