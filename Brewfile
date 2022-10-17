@@ -10,6 +10,7 @@ brew "jq"
 brew "fzf"
 brew "tmux"
 brew "gitlab-ci-local"
+brew "go"
 
 cask "1password"
 cask "adguard"
@@ -31,6 +32,8 @@ cask "postman"
 cask "teamviewer"
 cask "transmission"
 cask "xld"
+cask "intellij-idea"
+cask "goland"
 
 # evaluation
 cask "ukelele"

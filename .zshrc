@@ -123,7 +123,6 @@ export MANPATH="/usr/local/share/man:$MANPATH"
 
 # go configuration
 export GOPATH=$HOME/Sandbox/go-workspace # don't forget to change your path correctly!
-export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 ## export DOCKER_HOST="unix:///var/run/docker.sock"
