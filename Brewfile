@@ -11,6 +11,7 @@ brew "fzf"
 brew "tmux"
 brew "gitlab-ci-local"
 brew "go"
+brew "yt-dlp"
 
 cask "1password"
 cask "adguard"
@@ -34,6 +35,7 @@ cask "transmission"
 cask "xld"
 cask "intellij-idea"
 cask "goland"
+cask "obs"
 
 # evaluation
 cask "ukelele"
@@ -59,6 +61,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "ReadKit", id: 588726889
 mas "Telegram", id: 747648890
+mas "ScreenPointer", id: 1368204906
 
 # evaluation
 mas "Decompressor", id: 1033480833
