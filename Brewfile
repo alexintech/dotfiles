@@ -43,6 +43,9 @@ cask "karabiner-elements"
 cask "ngrok"
 cask "jetbrains-gateway"
 cask "jetbrains-space"
+cask "raycast"
+cask "imageoptim"
+cask "shottr"
 # cask "wine-stable"
 
 # Safari extensions
@@ -65,6 +68,7 @@ mas "ScreenPointer", id: 1368204906
 
 # evaluation
 mas "Decompressor", id: 1033480833
+mas "Pure Paste", id: 1611378436
 
 
 #408981434   iMovie                (10.3.4)
