@@ -12,6 +12,8 @@ brew "tmux"
 brew "gitlab-ci-local"
 brew "go"
 brew "yt-dlp"
+brew "hugo"
+brew "asciidoctor"
 
 cask "1password"
 cask "adguard"
