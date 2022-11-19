@@ -14,6 +14,8 @@ brew "go"
 brew "yt-dlp"
 brew "hugo"
 brew "asciidoctor"
+brew "gitleaks"
+brew "bat"
 
 cask "1password"
 cask "adguard"
@@ -41,14 +43,12 @@ cask "obs"
 
 # evaluation
 cask "ukelele"
-cask "karabiner-elements"
+# cask "karabiner-elements"
 cask "ngrok"
-cask "jetbrains-gateway"
-cask "jetbrains-space"
-cask "raycast"
+# cask "jetbrains-gateway"
+# cask "jetbrains-space"
 cask "imageoptim"
 cask "shottr"
-# cask "wine-stable"
 
 # Safari extensions
 mas "1Password for Safari", id: 1569813296
@@ -71,6 +71,7 @@ mas "ScreenPointer", id: 1368204906
 # evaluation
 mas "Decompressor", id: 1033480833
 mas "Pure Paste", id: 1611378436
+mas "AnkiApp Flashcards", id: 689185915
 
 
 #408981434   iMovie                (10.3.4)
