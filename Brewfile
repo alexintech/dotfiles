@@ -17,6 +17,9 @@ brew "asciidoctor"
 brew "gitleaks"
 brew "bat"
 
+# Slurm Gitlab course
+brew "cfssl"
+
 cask "1password"
 cask "adguard"
 cask "cloudflare-warp"
