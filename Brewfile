@@ -41,15 +41,13 @@ cask "teamviewer"
 cask "transmission"
 cask "xld"
 cask "intellij-idea"
-cask "goland"
 cask "obs"
 
 # evaluation
+cask "goland"
 cask "ukelele"
 # cask "karabiner-elements"
 cask "ngrok"
-# cask "jetbrains-gateway"
-# cask "jetbrains-space"
 cask "imageoptim"
 cask "shottr"
 
@@ -57,7 +55,6 @@ cask "shottr"
 mas "1Password for Safari", id: 1569813296
 mas "Evernote Web Clipper", id: 1481669779
 mas "Octotree", id: 1457450145
-mas "Sourcegraph for Safari", id: 1543262193
 
 mas "Day One", id: 1055511498
 mas "Evernote", id: 406056744
@@ -72,10 +69,8 @@ mas "Telegram", id: 747648890
 mas "ScreenPointer", id: 1368204906
 
 # evaluation
+mas "Sourcegraph for Safari", id: 1543262193
 mas "Decompressor", id: 1033480833
 mas "Pure Paste", id: 1611378436
 mas "AnkiApp Flashcards", id: 689185915
 
-
-#408981434   iMovie                (10.3.4)
-#682658836   GarageBand            (10.4.6)
