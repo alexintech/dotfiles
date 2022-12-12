@@ -13,12 +13,20 @@ brew "gitlab-ci-local"
 brew "go"
 brew "yt-dlp"
 brew "hugo"
-brew "asciidoctor"
-brew "gitleaks"
 brew "bat"
 
 # Slurm Gitlab course
 brew "cfssl"
+
+# Appium dependencies
+brew "carthage"
+
+# Evaluation
+brew "asciidoctor"
+brew "gitleaks"
+brew "gpg"
+brew "glab"
+
 
 cask "1password"
 cask "adguard"
@@ -43,13 +51,17 @@ cask "xld"
 cask "intellij-idea"
 cask "obs"
 
-# evaluation
+# Evaluation
 cask "goland"
 cask "ukelele"
 # cask "karabiner-elements"
 cask "ngrok"
 cask "imageoptim"
 cask "shottr"
+cask "appium-inspector"
+cask "android-studio"
+cask "1password-cli"
+cask "gitdock"
 
 # Safari extensions
 mas "1Password for Safari", id: 1569813296
@@ -68,9 +80,9 @@ mas "ReadKit", id: 588726889
 mas "Telegram", id: 747648890
 mas "ScreenPointer", id: 1368204906
 
-# evaluation
+# Evaluation
 mas "Sourcegraph for Safari", id: 1543262193
-mas "Decompressor", id: 1033480833
 mas "Pure Paste", id: 1611378436
 mas "AnkiApp Flashcards", id: 689185915
+mas "Xcode", id: 497799835
 

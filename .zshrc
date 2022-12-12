@@ -125,6 +125,10 @@ export MANPATH="/usr/local/share/man:$MANPATH"
 export GOPATH=$HOME/Sandbox/go-workspace # don't forget to change your path correctly!
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
+
+# Android configuration
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools:$PATH"
 ## export DOCKER_HOST="unix:///var/run/docker.sock"
 
 # }}}
@@ -176,4 +180,8 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+eval "$(op completion zsh)"; compdef _op op
+
+source /Users/alexandr/.config/op/plugins.sh
 
