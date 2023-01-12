@@ -14,6 +14,7 @@ brew "go"
 brew "yt-dlp"
 brew "hugo"
 brew "bat"
+brew "wget"
 
 # Slurm Gitlab course
 brew "cfssl"
@@ -62,6 +63,7 @@ cask "appium-inspector"
 cask "android-studio"
 cask "1password-cli"
 cask "gitdock"
+cask "notion"
 
 # Safari extensions
 mas "1Password for Safari", id: 1569813296
