@@ -183,5 +183,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 eval "$(op completion zsh)"; compdef _op op
 
-source /Users/alexandr/.config/op/plugins.sh
+source /Users/alexandr/.op/plugins.sh
 
