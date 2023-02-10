@@ -27,6 +27,10 @@ brew "asciidoctor"
 brew "gitleaks"
 brew "gpg"
 brew "glab"
+brew "pyenv"
+brew "bfg"
+brew "coreutils"
+brew "ncdu"
 
 
 cask "1password"
@@ -87,4 +91,5 @@ mas "Sourcegraph for Safari", id: 1543262193
 mas "Pure Paste", id: 1611378436
 mas "AnkiApp Flashcards", id: 689185915
 mas "Xcode", id: 497799835
+mas "Highlights: PDF Reader & Notes", id: 1498912833
 
